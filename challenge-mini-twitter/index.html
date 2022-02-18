@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>twitter</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <h5>Mini twitter</h5>
+    <div class="container">
+      <form>
+        <img src="src/person.jpeg" />
+        John Benson
+        <textarea placeholder="What's happening?"></textarea>
+        <i
+          id="counter"
+          class="fa fa-exclamation-triangle"
+          style="font-size: 16px; color: gray;"
+        >
+          0 Letter
+        </i>
+        <button type="submit" id="submit">Tweet</button>
+      </form>
+      <div id="listDiv">
+        <ul></ul>
+      </div>
+    </div>
+  </body>
+  <script src="src/index.js"></script>
+</html>

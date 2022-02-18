@@ -16,8 +16,22 @@
   </head>
 
   <body>
-    <div class="content"></div>
+    <div class="content">
+      <h1>Fastest presser</h1>
+      <input type="number" class="input-group-text shadow mb-3" />
+      <button class="btn btn-success m-2">Start game!</button>
+    </div>
+    <div class="bottomDiv">
+      <canvas id="s-canvas"></canvas>
+      <p id="sKey">0</p>
+      <canvas id="l-canvas"></canvas>
+      <p id="lKey">0</p>
+    </div>
+    <div>
+      <span id="sPress">Press S</span>
+      <span id="lPress">Press L</span>
+    </div>
   </body>
-
+  <script src="https://cdn.jsdelivr.net/npm/confetti-js@0.0.13/dist/index.min.js"></script>
   <script src="script.js"></script>
 </html>
